@@ -8,6 +8,10 @@
         <title>Seths Important Contacts</title>
     </head>
     <body>
+        <script>
+          window.User = {!! json_encode($user) !!}
+        </script>
+
         <div id="app"></div>
 
         <script>
